@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('pembelis', function (Blueprint $table) {
             $table->id();
             $table->string('nama_pembeli');
-            $table->integer('no_telp')->unique();
+            $table->text('no_telp')->unique();
             $table->text('alamat');
             $table->timestamps();
             $table->softDeletes();

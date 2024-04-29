@@ -27,7 +27,7 @@
                         <p><strong>ID Petugas:</strong> {{ $pembelians->id_petugas }}</p>
                     </div>
                     <div class="card-footer">
-                        <a href="{{ route('pembelians.index') }}" class="btn btn-md btn-danger">Kembali</a>
+                        <a href="/" class="btn btn-md btn-danger">Kembali</a>
                     </div>
                 </div>
             </div>

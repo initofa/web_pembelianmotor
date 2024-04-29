@@ -4,9 +4,7 @@ use App\Http\Controllers\PembelianController;
 use App\Http\Controllers\PetugasController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/', \App\Http\Controllers\HomeController::class);
 
 Route::get('/pembelian', [PembelianController::class, 'index'])->name('pembelians.index');
 Route::get('/pembelian/create', [PembelianController::class, 'create'])->name('pembelians.create');

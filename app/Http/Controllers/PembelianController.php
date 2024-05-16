@@ -34,7 +34,7 @@ class PembelianController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'nama_produk' => 'required',
+            'nama_motor' => 'required',
             'tanggal_pembelian' => 'required|date',
             'biaya' => 'required|numeric',
             'jumlah_pembelian' => 'required|integer',
@@ -60,7 +60,7 @@ class PembelianController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'nama_produk' => 'required',
+            'nama_motor' => 'required',
             'tanggal_pembelian' => 'required|date',
             'biaya' => 'required|numeric',
             'jumlah_pembelian' => 'required|integer',

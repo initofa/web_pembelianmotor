@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Rystore</title>
+    <title>AHM</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
             <div class="col-md-12">
                 <div>
                     <h1 class="text-center my-4" style="font-weight: bolder"><a href="/"
-                        style="color: #47b5ff; text-decoration: none;" title="Ke halaman Home">RYSTORE</a></h1>
+                        style="color: #e91111; text-decoration: none;" title="Ke halaman Home">AHM</a></h1>
                     <hr>
                 </div>
                 <div class="card">
@@ -28,7 +28,7 @@
                                 <tr>
                                     <th>ID Pembelian</th>
                                     <th>ID Pembeli</th>
-                                    <th>Nama Produk</th>
+                                    <th>Nama Motor</th>
                                     <th>Biaya</th>
                                     <th>Jumlah Pembelian</th>
                                     <th>ID Petugas</th>
@@ -40,7 +40,7 @@
                                     <tr>
                                         <td>{{ $pembelian->id }}</td>
                                         <td>{{ $pembelian->id_pembeli }}</td>
-                                        <td>{{ $pembelian->nama_produk }}</td>
+                                        <td>{{ $pembelian->nama_motor }}</td>
                                         <td>Rp {{ number_format($pembelian->biaya) }}</td>
                                         <td>{{ $pembelian->jumlah_pembelian }}</td>
                                         <td>{{ $pembelian->id_petugas }}</td>

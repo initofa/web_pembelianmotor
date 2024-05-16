@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('pembelians', function (Blueprint $table) {
             $table->id();
-            $table->string('nama_produk');
+            $table->string('nama_motor');
             $table->date('tanggal_pembelian');
             $table->integer('biaya');
             $table->integer('jumlah_pembelian');

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Rystore | Create</title>
+    <title>AHM | Create</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
                         <form action="{{ route('pembelians.store') }}" method="POST">
                             @csrf
                             <div class="form-group">
-                                <label for="nama_produk">Nama Product:</label>
-                                <input type="text" name="nama_produk" class="form-control" required>
+                                <label for="nama_motor">Nama Motor:</label>
+                                <input type="text" name="nama_motor" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label for="tanggal_pembelian">Tanggal Pembelian:</label>
